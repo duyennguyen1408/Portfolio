@@ -1,0 +1,103 @@
+@import "../../vars.css";
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    z-index: 2;
+    margin: 0 10%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #7562e0;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-items {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+}
+
+.menu-items a {
+    position: relative; /* Required for absolute positioning of the pseudo-element */
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none; /* Remove default underline */
+    overflow: hidden; /* Hide overflow for the pseudo-element */
+}
+
+.menu-items a::after {
+    content: ""; /* Create a pseudo-element */
+    position: absolute; /* Position relative to the parent */
+    left: 50%; /* Start from the center */
+    bottom: -5px; /* Position just below the text */
+    width: 0; /* Start with zero width */
+    height: 2px; /* Height of the underline */
+    background: #7562e0; /* Color of the underline */
+    transition: width 0.3s ease, left 0.3s ease; /* Smooth transition */
+}
+
+.menu-items a:hover {
+    color: #7562e0; /* Change text color on hover */
+}
+
+.menu-items a:hover::after {
+    width: 100%; /* Expand the width to full on hover */
+    left: 0; /* Move to the left */
+}
+
+@media screen and (max-width: 830px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-items {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(25, 55, 109);
+        background: linear-gradient(
+            0deg,
+            rgba(25, 55, 109, 0.2) 0%,
+            rgba(25, 55, 109, 1) 100%
+        );
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .menu-open {
+        display: flex;
+        z-index: 1;
+    }
+}

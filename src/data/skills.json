@@ -1,0 +1,58 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "../../assets/skills/html.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "../../assets/skills/css.png"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "../../assets/skills/js.png"
+    },
+    {
+        "title": "TypeScript",
+        "imageSrc": "../../assets/skills/ts.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "../../assets/skills/react.png"
+    },
+    {
+        "title": "Redux",
+        "imageSrc": "../../assets/skills/redux.png"
+    },
+    {
+        "title": "SCSS",
+        "imageSrc": "../../assets/skills/scss.png"
+    },
+    {
+        "title": "Tailwind CSS",
+        "imageSrc": "../../assets/skills/tailwind.png"
+    },
+    {
+        "title": "Material UI",
+        "imageSrc": "../../assets/skills/mui.png"
+    },
+    {
+        "title": "MySQL",
+        "imageSrc": "../../assets/skills/mysql.png"
+    },
+    {
+        "title": "NodeJS",
+        "imageSrc": "../../assets/skills/node.png"
+    },
+    {
+        "title": "Vite",
+        "imageSrc": "../../assets/skills/vite.png"
+    },
+    {
+        "title": "Git",
+        "imageSrc": "../../assets/skills/git.png"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "../../assets/skills/figma.png"
+    }
+]

@@ -1,0 +1,123 @@
+@import "../../vars.css";
+
+.contact-container {
+    color: var(--color-text);
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 50px 10%;
+}
+
+.contact-container h2 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.contact-text,
+.quick-links,
+.contact-links {
+    width: 33.3%;
+}
+
+.contact-text p {
+    font-size: 18px;
+}
+
+.quick-links ul {
+    margin-left: 18px;
+}
+
+.quick-links li {
+    margin-bottom: 10px;
+}
+
+.quick-links a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.quick-links a:hover {
+    border-bottom: 1px solid white;
+}
+
+.contact-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.contact-links li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.contact-links a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.contact-link-text:hover {
+    border-bottom: 1px solid white;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 830px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 23px;
+    }
+    .contact-text,
+    .quick-links,
+    .contact-links {
+        width: 100%;
+    }
+    .contact-links ul {
+        flex-direction: row;
+    }
+    .contact-links li {
+        border-radius: 50%;
+        background-color: var(--color-dark);
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    }
+
+    .contact-links li:hover {
+        background-color: white; /* Background color on hover */
+    }
+
+    .contact-links li:hover .contact-icon {
+        color: var(--color-dark); /* Dark icon color on hover */
+        transform: scale(1.1); /* Slightly enlarge icon on hover */
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .contact-icon {
+        display: block;
+        margin: 0 auto;
+        color: white; /* Initial icon color */
+    }
+
+    .contact-link-text {
+        display: none;
+    }
+}
