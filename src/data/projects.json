@@ -1,7 +1,7 @@
 [
     {
         "title": "Smart Contactless Menu for Coffee Shops",
-        "imageSrc": "../../assets/projects/project.png",
+        "imageSrc": "/projects/project.png",
         "description": "A QR Code menu system enables self-ordering from a customizable digital menu.",
         "skills": ["React", "Express", "Node", "MySQL", "MUI"],
         "demo": "https://drive.google.com/drive/folders/1viTdzBWn5K71Fv0kY0Si3tzdRl_SXzbX?usp=sharing",
@@ -9,7 +9,7 @@
     },
     {
         "title": "KaruFX - Landing Page",
-        "imageSrc": "../../assets/projects/project.png",
+        "imageSrc": "/projects/project.png",
         "description": "Built a mobile-optimized KaruFX Landing Page with React, TypeScript, SCSS, and Redux, integrating APIs and third-party tools",
         "skills": ["React", "TypeScript", "SCSS", "Redux Toolkit"],
         "demo": "https://drive.google.com/drive/folders/10iZsFw_xA76xrTL8EdzwS02xPBoYJww4?usp=sharing",
@@ -17,7 +17,7 @@
     },
     {
         "title": "E-commerce App",
-        "imageSrc": "../../assets/projects/project.png",
+        "imageSrc": "/projects/project.png",
         "description": "Built a responsive e-commerce platform with NextJS, TailwindCSS, and server-side components for faster load times and dynamic data integration.",
         "skills": ["NextJS", "Tailwind CSS"],
         "demo": "https://drive.google.com/drive/folders/1UiGHaet1Kb7feVdtNsoWXrYRyMcTLp-t?usp=sharing",
@@ -25,7 +25,7 @@
     },
     {
         "title": "PillDiFY: AI Pill Identifier App",
-        "imageSrc": "../../assets/projects/project.png",
+        "imageSrc": "/projects/project.png",
         "description": "Developed an AI-powered mobile app for pill identification, emphasizing user flows, prototypes, and usability testing.",
         "skills": ["Figma", "Useberry", "Draw.io"],
         "demo": "https://drive.google.com/drive/folders/1XLV2yCLRkEfyGbkQhmtGB9ttUy1ZNECJ?usp=sharing",

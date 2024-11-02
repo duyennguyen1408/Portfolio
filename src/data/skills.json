@@ -1,58 +1,58 @@
 [
     {
         "title": "HTML",
-        "imageSrc": "../../assets/skills/html.png"
+        "imageSrc": "/skills/html.png"
     },
     {
         "title": "CSS",
-        "imageSrc": "../../assets/skills/css.png"
+        "imageSrc": "/skills/css.png"
     },
     {
         "title": "JavaScript",
-        "imageSrc": "../../assets/skills/js.png"
+        "imageSrc": "/skills/js.png"
     },
     {
         "title": "TypeScript",
-        "imageSrc": "../../assets/skills/ts.png"
+        "imageSrc": "/skills/ts.png"
     },
     {
         "title": "React",
-        "imageSrc": "../../assets/skills/react.png"
+        "imageSrc": "/skills/react.png"
     },
     {
         "title": "Redux",
-        "imageSrc": "../../assets/skills/redux.png"
+        "imageSrc": "/skills/redux.png"
     },
     {
         "title": "SCSS",
-        "imageSrc": "../../assets/skills/scss.png"
+        "imageSrc": "/skills/scss.png"
     },
     {
         "title": "Tailwind CSS",
-        "imageSrc": "../../assets/skills/tailwind.png"
+        "imageSrc": "/skills/tailwind.png"
     },
     {
         "title": "Material UI",
-        "imageSrc": "../../assets/skills/mui.png"
+        "imageSrc": "/skills/mui.png"
     },
     {
         "title": "MySQL",
-        "imageSrc": "../../assets/skills/mysql.png"
+        "imageSrc": "/skills/mysql.png"
     },
     {
         "title": "NodeJS",
-        "imageSrc": "../../assets/skills/node.png"
+        "imageSrc": "/skills/node.png"
     },
     {
         "title": "Vite",
-        "imageSrc": "../../assets/skills/vite.png"
+        "imageSrc": "/skills/vite.png"
     },
     {
         "title": "Git",
-        "imageSrc": "../../assets/skills/git.png"
+        "imageSrc": "/skills/git.png"
     },
     {
         "title": "Figma",
-        "imageSrc": "../../assets/skills/figma.png"
+        "imageSrc": "/skills/figma.png"
     }
 ]
