@@ -100,8 +100,8 @@
         rgba(204, 85, 150, 0.7) -5.91%,
         rgba(102, 62, 220, 0.7) 100%
     );
-    transform: scale(1.05); /* Adds a slight zoom effect */
-    color: #ffffff; /* Ensures the text is readable on hover */
+    transform: scale(1.05);
+    color: #ffffff;
 }
 
 .hero-img {

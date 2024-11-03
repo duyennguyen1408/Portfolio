@@ -98,23 +98,23 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+        transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     .contact-links li:hover {
-        background-color: white; /* Background color on hover */
+        background-color: white;
     }
 
     .contact-links li:hover .contact-icon {
-        color: var(--color-dark); /* Dark icon color on hover */
-        transform: scale(1.1); /* Slightly enlarge icon on hover */
+        color: var(--color-dark);
+        transform: scale(1.1);
         transition: color 0.3s ease, transform 0.3s ease;
     }
 
     .contact-icon {
         display: block;
         margin: 0 auto;
-        color: white; /* Initial icon color */
+        color: white;
     }
 
     .contact-link-text {

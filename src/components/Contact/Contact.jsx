@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
+
 function Contact() {
     return (
         <footer id="contact" className="contact-container">

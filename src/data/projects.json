@@ -1,7 +1,7 @@
 [
     {
         "title": "Smart Contactless Menu for Coffee Shops",
-        "imageSrc": "/projects/project.png",
+        "imageSrc": "/projects/project_stock_image.jpg",
         "description": "A QR Code menu system enables self-ordering from a customizable digital menu.",
         "skills": ["React", "Express", "Node", "MySQL", "MUI"],
         "demo": "https://drive.google.com/drive/folders/1viTdzBWn5K71Fv0kY0Si3tzdRl_SXzbX?usp=sharing",
@@ -9,7 +9,7 @@
     },
     {
         "title": "KaruFX - Landing Page",
-        "imageSrc": "/projects/project.png",
+        "imageSrc": "/projects/project_stock_image_1.jpg",
         "description": "Built a mobile-optimized KaruFX Landing Page with React, TypeScript, SCSS, and Redux, integrating APIs and third-party tools",
         "skills": ["React", "TypeScript", "SCSS", "Redux Toolkit"],
         "demo": "https://drive.google.com/drive/folders/10iZsFw_xA76xrTL8EdzwS02xPBoYJww4?usp=sharing",
@@ -17,7 +17,7 @@
     },
     {
         "title": "E-commerce App",
-        "imageSrc": "/projects/project.png",
+        "imageSrc": "/projects/project_stock_image_2.jpg",
         "description": "Built a responsive e-commerce platform with NextJS, TailwindCSS, and server-side components for faster load times and dynamic data integration.",
         "skills": ["NextJS", "Tailwind CSS"],
         "demo": "https://drive.google.com/drive/folders/1UiGHaet1Kb7feVdtNsoWXrYRyMcTLp-t?usp=sharing",
@@ -25,10 +25,50 @@
     },
     {
         "title": "PillDiFY: AI Pill Identifier App",
-        "imageSrc": "/projects/project.png",
+        "imageSrc": "/projects/project_stock_image_3.jpg",
         "description": "Developed an AI-powered mobile app for pill identification, emphasizing user flows, prototypes, and usability testing.",
         "skills": ["Figma", "Useberry", "Draw.io"],
         "demo": "https://drive.google.com/drive/folders/1XLV2yCLRkEfyGbkQhmtGB9ttUy1ZNECJ?usp=sharing",
         "source": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=436-1230&t=eVqW8gFYknveMH7J-1"
+    },
+    {
+        "title": "Ella E-commerce Web Application",
+        "imageSrc": "/projects/project_stock_image_4.jpg",
+        "description": "An elegantly coded e-commerce interface, crafted based on an available design for a seamless shopping experience.",
+        "skills": ["HTML5", "CSS", "JavaScript"],
+        "demo": "https://drive.google.com/drive/folders/1Z3otmSVY7m2_cMKOA-UxGt-L9C0Cxp22?usp=sharing",
+        "source": "https://github.com/duyennguyen1408/ecommerce-ella"
+    },
+    {
+        "title": "EduTrack: An Android App for Efficient Studying",
+        "imageSrc": "/projects/project_stock_image_6.jpg",
+        "description": "An Android app that helps students manage their study time efficiently and stay focused.",
+        "skills": ["Kotlin", "MVVM", "Jetpack Compose"],
+        "demo": "https://drive.google.com/drive/folders/1nQouMoi49F1VmQq0hpfRxe9SWTROi4nr?usp=sharing",
+        "source": "https://github.com/duyennguyen1408/EduTrack"
+    },
+    {
+        "title": "Android Notes Application",
+        "imageSrc": "/projects/project_stock_image_5.jpg",
+        "description": "A mobile app that simplifies note-taking and information management on Android devices.",
+        "skills": ["Kotlin", "MVVM", "XML", "Firebase"],
+        "demo": "https://drive.google.com/drive/folders/1xi-E_JzaylxkVz4K6GZQjS7twRo82Ekj?usp=sharing",
+        "source": "https://github.com/duyennguyen1408/Notes-App-with-Kotlin"
+    },
+    {
+        "title": "Pet Store E-commerce Website - Raining Cats n Dogs",
+        "imageSrc": "/projects/project_stock_image_7.jpg",
+        "description": "A group project by 5 members to develop an e-commerce platform for pet products, managed with Scrum methodology.",
+        "skills": ["Wordpress", "Scrum"],
+        "demo": "https://drive.google.com/drive/folders/1zz-aRKAh2aspDhR1Xemzizhkdw3U3-KQ?usp=sharing",
+        "source": "rainingcatsndogs.xyz"
+    },
+    {
+        "title": "Deep Face Detection Model",
+        "imageSrc": "/projects/project_stock_image_8.png",
+        "description": "A group project by 3 members to develop and train a deep learning model for face detection, focusing on accurate face localization in images.",
+        "skills": ["Python"],
+        "demo": "https://drive.google.com/drive/folders/1SDZNDtQGol_Dteaqv8MFKZioE1odvWnh?usp=sharing",
+        "source": "https://drive.google.com/drive/folders/1IY85_LBaa81z3OC-P_bysLeTWx67NKAp?usp=sharing"
     }
 ]

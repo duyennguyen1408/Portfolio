@@ -20,7 +20,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* gap: 15px; */
 }
 
 .skill-item {
@@ -28,7 +27,7 @@
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    margin: 10px; /* Add some margin around skill items */
+    margin: 10px;
     flex: 0 1 calc(14.28% - 20px);
     cursor: pointer;
     animation-name: floating;

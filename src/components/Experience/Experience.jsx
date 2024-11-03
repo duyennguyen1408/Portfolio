@@ -7,21 +7,6 @@ function Experience() {
         <section className="exp-container" id="experience">
             <h2 className="exp-title">Experience</h2>
             <div className="exp-content">
-                {/* <div className="exp-skills">
-                    {skills.map((skill, id) => {
-                        return (
-                            <div key={id} className="exp-skill">
-                                <div className="skill-img-container">
-                                    <img
-                                        src={skill.imageSrc}
-                                        alt={skill.title}
-                                    />
-                                </div>
-                                <p>{skill.title}</p>
-                            </div>
-                        );
-                    })}
-                </div> */}
                 <ul className="exp-history">
                     {history.map((historyItem, id) => {
                         return (

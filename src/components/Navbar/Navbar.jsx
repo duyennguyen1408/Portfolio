@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import menuIcon from "../../../assets/nav/menuIcon.png";
-import closeIcon from "../../../assets/nav/closeIcon.png";
+import menuIcon from "/nav/menuIcon.png";
+import closeIcon from "/nav/closeIcon.png";
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -24,6 +24,9 @@ function Navbar() {
                 >
                     <li>
                         <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
                     </li>
                     <li>
                         <a href="#experience">Experience</a>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import cursorIcon from "../../../assets/about/cursorIcon.png";
+
 function About() {
     return (
         <section className="about-container" id="about">

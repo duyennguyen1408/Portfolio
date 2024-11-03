@@ -27,36 +27,36 @@
 
 .menu-items {
     display: flex;
-    gap: 47px;
+    gap: 30px;
     list-style: none;
 }
 
 .menu-items a {
-    position: relative; /* Required for absolute positioning of the pseudo-element */
-    font-size: 25px;
+    position: relative;
+    font-size: 24px;
     color: var(--color-text);
-    text-decoration: none; /* Remove default underline */
-    overflow: hidden; /* Hide overflow for the pseudo-element */
+    text-decoration: none;
+    overflow: hidden;
 }
 
 .menu-items a::after {
-    content: ""; /* Create a pseudo-element */
-    position: absolute; /* Position relative to the parent */
-    left: 50%; /* Start from the center */
-    bottom: -5px; /* Position just below the text */
-    width: 0; /* Start with zero width */
-    height: 2px; /* Height of the underline */
-    background: #7562e0; /* Color of the underline */
-    transition: width 0.3s ease, left 0.3s ease; /* Smooth transition */
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #7562e0;
+    transition: width 0.3s ease, left 0.3s ease;
 }
 
 .menu-items a:hover {
-    color: #7562e0; /* Change text color on hover */
+    color: #7562e0;
 }
 
 .menu-items a:hover::after {
-    width: 100%; /* Expand the width to full on hover */
-    left: 0; /* Move to the left */
+    width: 100%;
+    left: 0;
 }
 
 @media screen and (max-width: 830px) {
@@ -68,7 +68,6 @@
     .menu {
         position: absolute;
         right: 0;
-        margin-right: 10%;
         flex-direction: column;
         align-items: flex-end;
         gap: 11px;

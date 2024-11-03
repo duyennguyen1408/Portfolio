@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.css";
-import heroImage from "../../../assets/hero/heroImage.png";
+import heroImage from "/hero/heroImage.png";
 
 function Hero() {
     const [loopNum, setLoopNum] = useState(0);
@@ -30,17 +30,17 @@ function Hero() {
         setText(updatedText);
 
         if (isDeleting) {
-            setDelta(100); // Faster deletion speed
+            setDelta(100);
         } else {
-            setDelta(300 - Math.random() * 100); // Typing speed variation
+            setDelta(300 - Math.random() * 100);
         }
 
         if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true);
-            setDelta(period); // Pause before deleting
+            setDelta(period);
         } else if (isDeleting && updatedText === "") {
             setIsDeleting(false);
-            setLoopNum(loopNum + 1); // Move to next word
+            setLoopNum(loopNum + 1);
         }
     };
     return (
@@ -53,7 +53,7 @@ function Hero() {
                     Hi, I'm{" "}
                     <span className="typewriter">
                         {text}
-                        {/* Hiển thị dấu cursor khi đang gõ hoặc xóa */}
+
                         <span
                             className="cursor"
                             style={{ opacity: isDeleting || text ? 1 : 0 }}

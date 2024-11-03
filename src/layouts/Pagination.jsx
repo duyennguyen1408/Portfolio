@@ -1,5 +1,5 @@
 import React from "react";
-import "./Pagination.css"; // Create this CSS file for styling
+import "./Pagination.css";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 
