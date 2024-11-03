@@ -39,9 +39,10 @@ const Pagination = ({
                 buttons.push(<span key="ellipsis-start">...</span>);
             }
 
-            // Determine which pages to display
+            // Determine which pages to display around the current page
             const start = Math.max(2, currentPage - 1);
             const end = Math.min(totalPages - 1, currentPage + 1);
+
             for (let i = start; i <= end; i++) {
                 buttons.push(
                     <button
@@ -56,21 +57,21 @@ const Pagination = ({
                 );
             }
 
-            // Always show the last page if not already displayed
+            // Always show the last page button
             if (currentPage < totalPages - 1) {
                 buttons.push(<span key="ellipsis-end">...</span>);
-                buttons.push(
-                    <button
-                        key={totalPages}
-                        className={`pagination-button ${
-                            currentPage === totalPages ? "active" : ""
-                        }`}
-                        onClick={() => handlePageChange(totalPages)}
-                    >
-                        {totalPages}
-                    </button>
-                );
             }
+            buttons.push(
+                <button
+                    key={totalPages}
+                    className={`pagination-button ${
+                        currentPage === totalPages ? "active" : ""
+                    }`}
+                    onClick={() => handlePageChange(totalPages)}
+                >
+                    {totalPages}
+                </button>
+            );
         } else {
             // If total pages are less than or equal to 3, show all buttons
             for (let i = 1; i <= totalPages; i++) {
