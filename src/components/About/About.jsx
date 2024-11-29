@@ -17,11 +17,13 @@ function About() {
                             <h3>I’m Duyen </h3>
 
                             <p>
-                                I am a front-end developer dedicated to creating
-                                responsive, engaging web experiences. With a
-                                year of experience and a strong drive for
-                                growth, I aim to deliver impactful solutions
-                                that boost user engagement and business success.
+                                I am a Front-End Developer with experience in
+                                React and JavaScript, passionate about creating
+                                engaging web applications. I also focus on
+                                Business Analysis, optimizing workflows,
+                                gathering requirements, and aligning solutions
+                                with business goals to drive user engagement and
+                                success.
                             </p>
                         </div>
                     </li>

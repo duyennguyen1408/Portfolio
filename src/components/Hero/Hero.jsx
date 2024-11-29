@@ -5,7 +5,11 @@ import heroImage from "/hero/heroImage.png";
 function Hero() {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Nguyen Quynh Duyen", "a Front-end Developer"];
+    const toRotate = [
+        "Nguyen Quynh Duyen",
+        "a Front-end Developer",
+        "a Business Analyst",
+    ];
     const [text, setText] = useState("");
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
