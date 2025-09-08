@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.css";
-import heroImage from "/hero/heroImage.png";
+import heroImage from "/hero/heroImage2.png";
 
 function Hero() {
     const [loopNum, setLoopNum] = useState(0);
