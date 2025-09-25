@@ -16,18 +16,49 @@
     margin-bottom: 20px;
 }
 
-.skills-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+/* ================= Skillset (Hard/Soft) ================= */
+.skills-table {
+    width: 100%;
+    margin-bottom: 40px;
 }
 
+.skills-header {
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.skills-column {
+    flex: 1;
+    min-width: 250px;
+    background: #19376d;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.skills-column ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: var(--font-roboto);
+    line-height: 1.8;
+}
+
+/* ================= Toolset (icon grid) ================= */
 .skill-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    margin: 10px;
+    margin: 15px 30px;
     flex: 0 1 calc(14.28% - 20px);
     cursor: pointer;
     animation-name: floating;
@@ -77,4 +108,32 @@
     font-family: var(--font-roboto);
     font-weight: 500;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 830px) {
+    .skills-content {
+        gap: 40px;
+        justify-content: space-between;
+    }
+
+    .skill-item {
+        margin: 4px 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skill-img-container {
+        width: 88px;
+        height: 88px;
+    }
+
+    .skill-img-container img {
+        width: 56px;
+    }
+
+    .skill-item p {
+        font-size: 16px;
+        margin-top: 8px;
+        padding: 0 6px;
+    }
 }

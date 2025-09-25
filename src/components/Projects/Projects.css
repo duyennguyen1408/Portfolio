@@ -17,10 +17,8 @@
 .projects-content {
     margin-top: 37px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
     width: 100%;
 }

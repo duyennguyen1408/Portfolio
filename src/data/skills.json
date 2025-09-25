@@ -1,58 +1,53 @@
-[
-    {
-        "title": "HTML",
-        "imageSrc": "/skills/html.png"
-    },
-    {
-        "title": "CSS",
-        "imageSrc": "/skills/css.png"
-    },
-    {
-        "title": "JavaScript",
-        "imageSrc": "/skills/js.png"
-    },
-    {
-        "title": "TypeScript",
-        "imageSrc": "/skills/ts.png"
-    },
-    {
-        "title": "React",
-        "imageSrc": "/skills/react.png"
-    },
-    {
-        "title": "Redux",
-        "imageSrc": "/skills/redux.png"
-    },
-    {
-        "title": "SCSS",
-        "imageSrc": "/skills/scss.png"
-    },
-    {
-        "title": "Tailwind CSS",
-        "imageSrc": "/skills/tailwind.png"
-    },
-    {
-        "title": "Material UI",
-        "imageSrc": "/skills/mui.png"
-    },
-    {
-        "title": "MySQL",
-        "imageSrc": "/skills/mysql.png"
-    },
-    {
-        "title": "NodeJS",
-        "imageSrc": "/skills/node.png"
-    },
-    {
-        "title": "Vite",
-        "imageSrc": "/skills/vite.png"
-    },
-    {
-        "title": "Git",
-        "imageSrc": "/skills/git.png"
-    },
-    {
-        "title": "Figma",
-        "imageSrc": "/skills/figma.png"
-    }
-]
+{
+    "hardSkills": [
+        "Requirements Gathering",
+        "Roadmap Planning",
+        "User Research",
+        "Agile & Scrum",
+        "PRD & Documentation",
+        "Data Analysis",
+        "Software Testing & Data Validation"
+    ],
+    "softSkills": [
+        "Ownership",
+        "Persistency",
+        "Empathy & Team-first Attitude",
+        "Analytical & Problem-solving",
+        "Adaptability"
+    ],
+    "toolset": [
+        {
+            "title": "MySQL",
+            "imageSrc": "/skills/mysql.png"
+        },
+
+        {
+            "title": "Git",
+            "imageSrc": "/skills/git.png"
+        },
+        {
+            "title": "Draw.io",
+            "imageSrc": "/skills/draw io.png"
+        },
+        {
+            "title": "Excalidraw",
+            "imageSrc": "/skills/excalidraw.png"
+        },
+        {
+            "title": "Figma",
+            "imageSrc": "/skills/figma.png"
+        },
+        {
+            "title": "Word",
+            "imageSrc": "/skills/word.png"
+        },
+        {
+            "title": "Excel",
+            "imageSrc": "/skills/excel.png"
+        },
+        {
+            "title": "Powerpoint",
+            "imageSrc": "/skills/powerpoint.png"
+        }
+    ]
+}

@@ -1,5 +1,13 @@
 [
     {
+        "role": "Business Analyst - Trainee",
+        "organisation": "Hiip",
+        "startDate": "Jan, 2025",
+        "endDate": "Present",
+        "experience": "Collaborated with cross-functional teams to gather requirements, define problems, design solutions, and deliver PRDs; led UI/UX design and data testing to validate accuracy, ensure stable performance, and measure outcomes; engaged users through interviews, feedback, and training to drive improvements. Additionally, supported regional stakeholders (Singapore, Philippines, Indonesia) by resolving system issues when needed.",
+        "imageSrc": "/history/hiip.jpg"
+    },
+    {
         "role": "Frontend Developer - Intern",
         "organisation": "TEQNOLOGICAL ASIA",
         "startDate": "Apr, 2023",

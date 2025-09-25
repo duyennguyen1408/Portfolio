@@ -5,11 +5,7 @@ import heroImage from "/hero/heroImage2.png";
 function Hero() {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [
-        "Nguyen Quynh Duyen",
-        "a Front-end Developer",
-        "a Business Analyst",
-    ];
+    const toRotate = ["Nguyen Quynh Duyen", "a Business Analyst"];
     const [text, setText] = useState("");
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -67,8 +63,8 @@ function Hero() {
                     </span>
                 </h1>
                 <p className="hero-desc">
-                    "I bring ideas to life with clean, minimal code and a
-                    passion for elegant design."
+                    "From requirements to results — I help teams build the right
+                    solutions, not just build them right."
                 </p>
                 <a
                     href="mailto:duyennguyen14082003@gmail.com"

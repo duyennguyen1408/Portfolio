@@ -1,74 +1,330 @@
 [
     {
-        "title": "Smart Contactless Menu for Coffee Shops",
-        "imageSrc": "/projects/project_stock_image.jpg",
-        "description": "A QR Code menu system enables self-ordering from a customizable digital menu.",
-        "skills": ["React", "Express", "Node", "MySQL", "MUI"],
-        "demo": "https://drive.google.com/drive/folders/1viTdzBWn5K71Fv0kY0Si3tzdRl_SXzbX?usp=sharing",
-        "source": "https://github.com/duyennguyen1408/QR-Food-Ordering-System_UI"
+        "title": "Customer Data Platform v2 (CDP)",
+        "imageSrc": "/projects/CDP - 1.png",
+        "description": "Upgraded Customer Data Platform to v2, adding multi-dimensional Superset reports (e.g., GMV, growth, location, brand comparisons), reducing manual filtering, enhancing insights, and improving business decision-making.",
+        "skills": [
+            "Product Management",
+            "Data Analysis",
+            "API Integration",
+            "Superset"
+        ],
+        "problem": "CDP v1 offered only high-level aggregated metrics, lacking depth for multi-dimensional analysis (e.g., by brand, time, location), leading to excessive manual filtering, slower insights, and limited decision-making. This restricted users' ability to derive actionable recommendations on consumers, ads, products, and creators.",
+        "solution": "Restructured reports for deeper insights by integrating new metrics from TikTok Shop API and TikTok Ads API, utilizing Superset for visualization. This automated multi-dimensional tracking, reduced loading times, minimized manual efforts, and enabled faster, data-driven business decisions through clearer structures and accurate data.",
+        "images": ["/projects/CDP.png"],
+        "responsibilities": {
+            "Problem Definition": {
+                "text": [
+                    "Researched limitations of CDP v1 through data analysis and user feedback to identify pain points like insufficient depth in metrics and manual filtering needs.",
+                    "Defined success metrics, such as reducing loading times and enabling multi-dimensional breakdowns, while clarifying user requirements for richer insights.",
+                    "Evaluated opportunities by exploring TikTok Shop API and TikTok Ads API to expand metrics, prioritizing based on business impact and technical feasibility."
+                ],
+                "links": []
+            },
+            "Solution Design": {
+                "text": [
+                    "Proposed solutions by brainstorming report restructures to support analysis across dimensions (brand, time, location) and incorporate new metrics from TTS & TT Ads APIs.",
+                    "Created sketches for report structures and explored Superset for optimal visualization, presenting ideas to stakeholders for feedback and refinement."
+                ],
+                "links": [
+                    {
+                        "label": "Sales Performance | Report Structure > Sketch",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=2064308159#gid=2064308159"
+                    },
+                    {
+                        "label": "Ads Performance | Report Structure > Sketch",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=270508753#gid=270508753"
+                    },
+                    {
+                        "label": "Ads Report by Target Audience | Report Structure > Sketch",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=1199538134#gid=1199538134"
+                    }
+                ]
+            },
+            "Requirement / PRD": {
+                "text": [
+                    "Authored key documentation, including research, report structure (sketches translated into structured formats for Superset visualization and development), information architecture, and project roadmap, to ensure clarity and alignment.",
+                    "Reviewed requirements to minimize misunderstandings, ensuring report structures were clear for Superset implementation.",
+                    "Managed planning for feature deployment, incorporating timelines and dependencies for development on Superset."
+                ],
+                "links": [
+                    {
+                        "label": "Product Requirement Document (PRD)",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=756361821#gid=756361821"
+                    }
+                ]
+            },
+            "Developing": {
+                "text": [
+                    "Collaborated on tech solution design, confirming API integrations for data collection from TikTok sources.",
+                    "Oversaw development phases, providing input on implementations while conducting testing for UI/UX and data accuracy to maintain quality.",
+                    "Ensured adherence to timelines by tracking progress and addressing delays from data misunderstandings."
+                ],
+                "links": [
+                    {
+                        "label": "Sales Performance > Project Roadmap",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=977078775#gid=977078775"
+                    },
+                    {
+                        "label": "Ads Report > Project Roadmap",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=1302071023#gid=1302071023"
+                    }
+                ]
+            },
+            "Release Alpha & Production": {
+                "text": [
+                    "Conducted testing on the Superset production environment to ensure report accuracy and usability, validating visualizations and data flows.",
+                    "Performed final validations on Superset post-deployment to confirm system stability and minimal disruptions for users."
+                ],
+                "links": [
+                    {
+                        "label": "Customer Data Platform v2 > Dogfooding",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=885661190#gid=885661190"
+                    }
+                ]
+            },
+            "Support User": {
+                "text": [
+                    "Conducted user training sessions on the upgraded reports, demonstrating multi-dimensional analysis and new features.",
+                    "Gathered feedback during training and real-world use, summarizing issues for actionable improvements.",
+                    "Supported users by troubleshooting system problems and automating feedback processes where possible."
+                ],
+                "links": [
+                    {
+                        "label": "User Feedback > Feature Enhancement",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=229661203#gid=229661203"
+                    }
+                ]
+            },
+            "Measure & Iterate": {
+                "text": [
+                    "Set up next steps based on metrics and feedback, proposing refinements to further enhance insights and align with business needs.",
+                    "Analyzed brand and product data from sales and ads dashboards on Superset for each brand, using data-driven insights to provide specific optimization suggestions (e.g., target consumers, ads, product offers, creators, v.v)"
+                ],
+                "links": [
+                    {
+                        "label": "CDP > Brand Data Analytics",
+                        "url": "https://docs.google.com/spreadsheets/d/1biMw-qapDXo8MRzmPW1BpzXgtRe5lWo4ygi1oEACShY/edit?gid=1310699662#gid=1310699662"
+                    }
+                ]
+            }
+        },
+        "achievements": [
+            "Delivered multi-dimensional reports (e.g., GMV by month, location, brand comparisons) on Superset, enabling faster, data-driven decisions for business users.",
+            "Reduced report loading time by ~80% and minimized manual filtering, streamlining user workflows.",
+            "Integrated TikTok Shop and Ads API metrics, providing deeper, actionable insights for optimizing ads, products, and creator strategies."
+        ]
     },
     {
-        "title": "KaruFX - Landing Page",
-        "imageSrc": "/projects/project_stock_image_1.jpg",
-        "description": "Built a mobile-optimized KaruFX Landing Page with React, TypeScript, SCSS, and Redux, integrating APIs and third-party tools",
-        "skills": ["React", "TypeScript", "SCSS", "Redux Toolkit"],
-        "demo": "https://drive.google.com/drive/folders/10iZsFw_xA76xrTL8EdzwS02xPBoYJww4?usp=sharing",
-        "source": "https://github.com/duyennguyen1408/KaruFX-LP-Page"
+        "title": "Conversion Report for TikTok Affiliate Partner",
+        "imageSrc": "/projects/Conversion _ TAP.png",
+        "description": "Developed the Conversion Report module in Hiip Admin, integrating TikTok Affiliate Partner and Business Ads data. Automated daily KPI tracking, reducing effort, boosting accuracy, and enabling real-time campaign monitoring for brands and creators.",
+        "skills": ["Product Management", "UI/UX Design", "Testing", "PRD"],
+        "problem": "Previously, brands and creators relied on fragmented manual processes—consolidating TAP orders, TikTok Ads data, and Excel imports—which made reporting slow, error-prone, and updated only weekly.",
+        "solution": "Conversion Report - TAP was built to integrate directly with TAP and TikTok Ads APIs, automate daily data collection, and provide a flexible KPI setup tool for brands and products. The system standardized data formats, supported Excel import for special cases (e.g., Unilever campaigns), and reduced manual effort while increasing reporting accuracy and timeliness.",
+        "images": [
+            "/projects/Conversion _ TAP.png",
+            "/projects/Conversion _ TAP - 1.png",
+            "/projects/Conversion _ TAP - 2.png",
+            "/projects/Conversion _ TAP - 3.png",
+            "/projects/Conversion _ TAP - 4.png",
+            "/projects/Conversion _ TAP - 5.png",
+            "/projects/Conversion _ TAP - 6.png"
+        ],
+        "responsibilities": {
+            "Problem Definition": {
+                "text": [
+                    "Engaged with stakeholders to define and quantify the core problems in the reporting process.",
+                    "Clarified user needs around fragmented manual reporting.",
+                    "Defined key problems: lack of daily visibility, error-prone manual consolidation, and no unified view across TAP orders, ads, and content."
+                ],
+                "links": []
+            },
+            "Solution Design": {
+                "text": [
+                    "Proposed solutions by brainstorming ideas, then created sketches to visualize the report structure, including integration of TAP and TikTok Business Ads, user selection of TAP campaigns and ad groups, and a KPI Planning input for monthly brand/product metrics",
+                    "Presented the proposed solutions and sketches to stakeholders for revisions and feedback, iterating until finalizing the approach, incorporating editable KPI adjustments for real-time discussions with brands and daily TAP order collection starting each morning.",
+                    "After finalization, proceeded to UI/UX design for the report features to ensure intuitive data visualization and accessibility, designing a user-friendly KPI Planning input interface and clear report displays."
+                ],
+                "links": [
+                    {
+                        "label": "Conversion Report > KPI Planning Input | UI/UX Design",
+                        "url": "https://www.figma.com/design/uw4Tyw3WpioVaiI8uVDxyr/Qu%E1%BB%B3nh-Duy%C3%AAn-Nguy%E1%BB%85n-s-team-library?node-id=2328-136605&t=oDUplL55P7cniBj4-4"
+                    },
+                    {
+                        "label": "Conversion Report > TAP Report | UI/UX Design",
+                        "url": "https://www.figma.com/design/uw4Tyw3WpioVaiI8uVDxyr/Qu%E1%BB%B3nh-Duy%C3%AAn-Nguy%E1%BB%85n-s-team-library?node-id=2328-139455&t=oDUplL55P7cniBj4-4"
+                    }
+                ]
+            },
+            "Requirement / PRD": {
+                "text": [
+                    "Authored comprehensive product documentation, including Problem Definition & Solution Proposals, User Stories & Acceptance Criteria, Information Architecture, and Project Roadmap on Google Sheet",
+                    "Designed the Excel format for the export report feature to ensure consistency and usability in the exported data output.",
+                    "Reviewed and refined PRD to minimize missed or misunderstood cases, ensuring clear alignment with user needs and development team.",
+                    "Managed feature deployment planning, incorporating timelines and dependencies for on-time delivery."
+                ],
+                "links": []
+            },
+            "Developing": {
+                "text": [
+                    "Collaborated on tech solution design, confirming integrations for data collection and validation.",
+                    "Oversaw development phases, including API and frontend implementation.",
+                    "Ensured adherence to estimated timelines, tracking actual vs. estimated time to avoid delays."
+                ],
+                "links": []
+            },
+            "Release Alpha & Production": {
+                "text": [
+                    "Prepared configurations and tech preparations for alpha deployment by the development team.",
+                    "Conducted thorough testing on the alpha environment, focusing on UI/UX and data accuracy to identify and address issues early.",
+                    "After alpha testing was complete and issues resolved, notified the team that testing was finalized, prepared the release note, and coordinated with the development team to deploy the system to production for official user access.",
+                    "Performed dogfooding in the production environment to ensure no bugs remained, validating the system’s stability and functionality for end users.",
+                    "Managed announcements to ensure a smooth general availability rollout with minimal disruptions."
+                ],
+                "links": []
+            },
+            "Support User": {
+                "text": [
+                    "Conducted user training sessions for the new report features, demonstrating usage and gathering direct feedback.",
+                    "Supported users by addressing system issues, troubleshooting problems, and providing solutions to ensure smooth operation.",
+                    "Summarized user issues and proposed actionable improvements to enhance the system based on real-world application."
+                ],
+                "links": []
+            },
+            "Measure & Iterate": {
+                "text": [
+                    "Set up next steps based on feedback and metrics, proposing refinements to further align with user needs and business goals."
+                ],
+                "links": []
+            }
+        },
+        "achievements": [
+            "Automated daily revenue tracking, replacing weekly reports, enabling faster reactions to underperforming campaigns.",
+            "Reduced manual report consolidation time by ~40% through automation, freeing up team resources.",
+            "Minimized reporting errors by ~30% with systematic data collection and validation, improving KPI reliability."
+        ]
     },
     {
-        "title": "E-commerce App",
-        "imageSrc": "/projects/project_stock_image_2.jpg",
-        "description": "Built a responsive e-commerce platform with NextJS, TailwindCSS, and server-side components for faster load times and dynamic data integration.",
-        "skills": ["NextJS", "Tailwind CSS"],
-        "demo": "https://drive.google.com/drive/folders/1UiGHaet1Kb7feVdtNsoWXrYRyMcTLp-t?usp=sharing",
-        "source": "https://github.com/duyennguyen1408/e-commerce-web-app-1"
+        "title": "Content Angle & Hashtag Checking",
+        "imageSrc": "/projects/angle&hashtag.png",
+        "description": "Enhanced the Conversion Report with Content Angle Detection for automated angle matching and Hashtag Checking for streamlined verification, cutting manual effort and boosting accuracy. Delivered actionable insights and optimized workflows for TikTok Affiliate Partner users.",
+        "skills": ["PRD", "UI/UX Design", "Stakeholder Collaboration"],
+        "problem": "The Conversion Report lacked automated tools to identify content angles—where a content angle is the specific theme or perspective (e.g., humor, tutorial) tailored to a product to engage audiences. For Content Angle, the content team provided briefs with product angles to guide influencers, but since influencers' spoken content or captions could vary, manual verification of relevance to any brief angle was inefficient. \nThe Conversion Report also lacked automated hashtag verification, leading to time-consuming manual checks. For Hashtag Checking, the content team manually verified video links and hashtag usage per product, consuming significant resources despite being a key acceptance criterion.",
+        "solution": "Implemented Content Angle Detection to automatically define angles for content by analyzing the first 10 seconds of video transcripts on TikTok, falling back to captions if transcripts were unavailable, based on user-input angles per product. Added Hashtag Checking to verify hashtag presence by cross-referencing user-input hashtags with video content, reducing manual validation. Both features, integrated into the Conversion Report, minimized effort and improved accuracy.",
+        "images": ["/projects/angle&hashtag.png"],
+        "responsibilities": {
+            "Problem Definition": {
+                "text": [
+                    "Identified inefficiencies in manually assigning angles for Content Angle Detection and verifying hashtags for Hashtag Checking via user research and interview.",
+                    "Defined success metrics for automating angle matching and hashtag checks for both features.",
+                    "Evaluated opportunities using transcript/caption data for Content Angle Detection and hashtag automation for Hashtag Checking."
+                ],
+                "links": []
+            },
+            "Solution Design": {
+                "text": [
+                    "Proposed solutions and created sketches/user flows for Content Angle Detection and Hashtag Checking.",
+                    "Designed UI/UX for both features, presenting to stakeholders for feedback."
+                ],
+                "links": []
+            },
+            "Requirement / PRD": {
+                "text": [
+                    "Authored problem/solution docs, user flows, and Excel formats for input files for Content Angle Detection and Hashtag Checking.",
+                    "Managed deployment planning with timelines for both features."
+                ],
+                "links": []
+            },
+            "Developing": {
+                "text": [
+                    "Collaborated on tech design for transcript/caption analysis for Content Angle Detection and hashtag detection for Hashtag Checking.",
+                    "Oversaw development and conducted alpha/production testing for both features.",
+                    "Ensured timeline adherence, addressing data extraction challenges."
+                ],
+                "links": []
+            },
+            "Release Alpha & Production": {
+                "text": [
+                    "Conducted alpha testing for Content Angle Detection & Hashtag Checking, validating angle matching and hashtag verification.",
+                    "Performed production testing and announced release notes for both features."
+                ],
+                "links": []
+            },
+            "Support User": {
+                "text": [
+                    "Created product guidelines for Content Angle Detection and Hashtag Checking.",
+                    "Gathered feedback and supported users for both features post-release."
+                ],
+                "links": []
+            },
+            "Measure & Iterate": {
+                "text": [
+                    "Analyzed quantity/quality of angle matches for Content Angle Detection and hashtag usage for Hashtag Checking.",
+                    "Evaluated performance and proposed iterations for both features."
+                ],
+                "links": []
+            }
+        },
+        "achievements": [
+            "Reduced manual effort by ~40% through automated angle matching for Content Angle Detection and hashtag verification for Hashtag Checking.",
+            "Increased accuracy by ~30% in aligning content angles with product briefs and ensuring ~95% hashtag compliance across campaigns.",
+            "Saved ~50% of the content team’s time by delivering actionable insights and optimizing workflows via integrated Conversion Report features."
+        ]
     },
     {
-        "title": "PillDiFY: AI Pill Identifier App",
-        "imageSrc": "/projects/project_stock_image_3.jpg",
-        "description": "Developed an AI-powered mobile app for pill identification, emphasizing user flows, prototypes, and usability testing.",
-        "skills": ["Figma", "Useberry", "Draw.io"],
-        "demo": "https://drive.google.com/drive/folders/1XLV2yCLRkEfyGbkQhmtGB9ttUy1ZNECJ?usp=sharing",
-        "source": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=436-1230&t=eVqW8gFYknveMH7J-1"
-    },
-    {
-        "title": "Ella E-commerce Web Application",
-        "imageSrc": "/projects/project_stock_image_4.jpg",
-        "description": "An elegantly coded e-commerce interface, crafted based on an available design for a seamless shopping experience.",
-        "skills": ["HTML5", "CSS", "JavaScript"],
-        "demo": "https://drive.google.com/drive/folders/1Z3otmSVY7m2_cMKOA-UxGt-L9C0Cxp22?usp=sharing",
-        "source": "https://github.com/duyennguyen1408/ecommerce-ella"
-    },
-    {
-        "title": "EduTrack: An Android App for Efficient Studying",
-        "imageSrc": "/projects/project_stock_image_6.jpg",
-        "description": "An Android app that helps students manage their study time efficiently and stay focused.",
-        "skills": ["Kotlin", "MVVM", "Jetpack Compose"],
-        "demo": "https://drive.google.com/drive/folders/1nQouMoi49F1VmQq0hpfRxe9SWTROi4nr?usp=sharing",
-        "source": "https://github.com/duyennguyen1408/EduTrack"
-    },
-    {
-        "title": "Android Notes Application",
-        "imageSrc": "/projects/project_stock_image_5.jpg",
-        "description": "A mobile app that simplifies note-taking and information management on Android devices.",
-        "skills": ["Kotlin", "MVVM", "XML", "Firebase"],
-        "demo": "https://drive.google.com/drive/folders/1xi-E_JzaylxkVz4K6GZQjS7twRo82Ekj?usp=sharing",
-        "source": "https://github.com/duyennguyen1408/Notes-App-with-Kotlin"
-    },
-    {
-        "title": "Pet Store E-commerce Website",
-        "imageSrc": "/projects/project_stock_image_7.jpg",
-        "description": "A group project by 5 members to develop an e-commerce platform for pet products, managed with Scrum methodology.",
-        "skills": ["Wordpress", "Scrum"],
-        "demo": "https://drive.google.com/drive/folders/1zz-aRKAh2aspDhR1Xemzizhkdw3U3-KQ?usp=sharing",
-        "source": "rainingcatsndogs.xyz"
-    },
-    {
-        "title": "Deep Face Detection Model",
-        "imageSrc": "/projects/project_stock_image_8.png",
-        "description": "A group project by 3 members to develop and train a deep learning model for face detection, focusing on accurate face localization in images.",
-        "skills": ["Python"],
-        "demo": "https://drive.google.com/drive/folders/1SDZNDtQGol_Dteaqv8MFKZioE1odvWnh?usp=sharing",
-        "source": "https://drive.google.com/drive/folders/1IY85_LBaa81z3OC-P_bysLeTWx67NKAp?usp=sharing"
+        "title": "Campaign Management",
+        "imageSrc": "/projects/campaign.png",
+        "description": "End-to-end campaign platform for influencer activation, quotations, content collaboration, and ROI/perception reporting. I managed the Campaign module, supported VN, SG, PH, ID workspaces, and enhanced/added features for better operations.",
+        "skills": [
+            "Product Management",
+            "UI/UX Design",
+            "Stakeholder Collaboration",
+            "Cross-regional User Support"
+        ],
+        "images": ["/projects/campaign.png"],
+        "responsibilities": {
+            "Problem Definition": {
+                "text": [
+                    "Collected feedback from internal teams and users to understand challenges in campaign operations and areas requiring system improvement."
+                ],
+                "links": []
+            },
+            "Solution Design": {
+                "text": [
+                    "Proposed and designed enhancements and new functionalities across the Campaign module, including Organization Register for extended organization management, Quotation improvements (Edit Group Name / Change Influencer Group), Request Tracking for better monitoring, Conversion Report with KPI Planning Setup and TAP report, and the All-in-One Platform initiative to unify multiple workspaces (VN, SG, PH, ID) into a single website."
+                ],
+                "links": [
+                    {
+                        "label": "Campaign Management > New Features | UI/UX Design",
+                        "url": "https://www.figma.com/design/uw4Tyw3WpioVaiI8uVDxyr/Qu%E1%BB%B3nh-Duy%C3%AAn-Nguy%E1%BB%85n-s-team-library?node-id=2325-144895"
+                    }
+                ]
+            },
+            "Requirement / PRD": {
+                "text": [
+                    "Document requirements and manage planning for campaign management enhancements."
+                ],
+                "links": []
+            },
+            "Developing": {
+                "text": [
+                    "Oversee development and ensure timely implementation of campaign management features."
+                ],
+                "links": []
+            },
+            "Release Alpha & Production": {
+                "text": [
+                    "Coordinate testing and deployment of campaign management updates across the platform."
+                ],
+                "links": []
+            },
+            "Support User": {
+                "text": [
+                    "Supported internal teams and users across multiple workspaces in adopting new features, responded to feedback, and provided guidance on feature usage."
+                ],
+                "links": []
+            }
+        }
     }
 ]

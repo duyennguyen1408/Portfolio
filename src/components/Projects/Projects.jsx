@@ -6,21 +6,19 @@ import Pagination from "../../layouts/Pagination";
 
 function Projects() {
     const [currentPage, setCurrentPage] = useState(1);
-    const [itemsPerPage, setItemsPerPage] = useState(3);
+    const [itemsPerPage, setItemsPerPage] = useState(2);
 
     useEffect(() => {
         const updateItemsPerPage = () => {
             if (window.innerWidth <= 830) {
-                setItemsPerPage(1);
+                setItemsPerPage(1); // tablet & mobile
             } else {
-                setItemsPerPage(3);
+                setItemsPerPage(2); // laptop trở lên
             }
         };
 
         updateItemsPerPage();
-
         window.addEventListener("resize", updateItemsPerPage);
-
         return () => window.removeEventListener("resize", updateItemsPerPage);
     }, []);
 

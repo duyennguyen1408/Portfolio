@@ -17,13 +17,13 @@ function About() {
                             <h3>I’m Duyen </h3>
 
                             <p>
-                                I am a Front-End Developer with experience in
-                                React and JavaScript, passionate about creating
-                                engaging web applications. I also focus on
-                                Business Analysis, optimizing workflows,
-                                gathering requirements, and aligning solutions
-                                with business goals to drive user engagement and
-                                success.
+                                I am a Business Analyst with hands-on experience
+                                in gathering requirements, analyzing business
+                                processes, and creating clear documentation to
+                                support better decision-making. With strong
+                                analytical and communication skills, I am eager
+                                to contribute to improving processes and systems
+                                for measurable business outcomes.
                             </p>
                         </div>
                     </li>

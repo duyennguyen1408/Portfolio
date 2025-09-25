@@ -1,0 +1,36 @@
+{
+    "title": "Customer Data Platform (CDP) Upgrade",
+    "imageSrc": "/images/cdp.png",
+    "description": {
+        "summary": "Nâng cấp hệ thống CDP để cải thiện quản lý dữ liệu khách hàng.",
+        "goal": "Mục tiêu: Tăng độ chính xác và khả năng phân tích dữ liệu.",
+        "tools": "Sử dụng BigQuery, Segment, và Looker.",
+        "result": "Kết quả: Giảm 30% thời gian xử lý dữ liệu và tăng 20% hiệu quả chiến dịch."
+    },
+    "skills": ["BigQuery", "Segment", "Looker", "React"],
+    "problem": [
+        "Hệ thống cũ không đồng bộ dữ liệu real-time.",
+        "Người dùng gặp khó khăn khi truy xuất thông tin khách hàng.",
+        "Ảnh hưởng đến hiệu quả chiến dịch marketing."
+    ],
+    "solution": [
+        "Thiết kế lại kiến trúc dữ liệu theo event-driven.",
+        "Tích hợp công cụ phân tích trực quan.",
+        "Triển khai theo mô hình Agile lifecycle."
+    ],
+    "responsibilities": {
+        "problemDefinition": "Phân tích hành vi người dùng và hệ thống hiện tại.",
+        "solutionDesign": {
+            "text": "Thiết kế kiến trúc mới, lựa chọn công cụ phù hợp.",
+            "images": ["/images/design1.png", "/images/design2.png"]
+        },
+        "requirement": {
+            "text": "Xây dựng PRD chi tiết cho từng module.",
+            "images": ["/images/prd1.png"]
+        },
+        "developing": "Phát triển backend và frontend theo mô-đun.",
+        "release": "Triển khai bản Alpha và Production theo từng giai đoạn.",
+        "support": "Hỗ trợ người dùng qua tài liệu và training.",
+        "measure": "Theo dõi KPI và cải tiến theo feedback."
+    }
+}
