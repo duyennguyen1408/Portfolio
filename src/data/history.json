@@ -1,10 +1,18 @@
 [
     {
+        "role": "Business Analyst - Intern",
+        "organisation": "ITL Corporation",
+        "startDate": "Jan, 2026",
+        "endDate": "Present",
+        "experience": "Gathered and analyzed business requirements, designed wireframes and specifications, coordinated development and testing activities, and participated in stakeholder meetings to document discussions and collect user feedback for eTMS system improvements.",
+        "imageSrc": "/history/itl.png"
+    },
+    {
         "role": "Business Analyst - Trainee",
         "organisation": "Hiip",
         "startDate": "Jan, 2025",
-        "endDate": "Present",
-        "experience": "Collaborated with cross-functional teams to gather requirements, define problems, design solutions, and deliver PRDs; led UI/UX design and data testing to validate accuracy, ensure stable performance, and measure outcomes; engaged users through interviews, feedback, and training to drive improvements. Additionally, supported regional stakeholders (Singapore, Philippines, Indonesia) by resolving system issues when needed.",
+        "endDate": "Aug, 2025",
+        "experience": "Collaborated with cross-functional teams to gather requirements, design solutions, and deliver PRDs. Led UI/UX design, testing, and user engagement to improve system performance and user experience. Supported regional stakeholders across Singapore, the Philippines, and Indonesia in resolving system issues.",
         "imageSrc": "/history/hiip.jpg"
     },
     {
