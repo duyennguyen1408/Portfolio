@@ -1,17 +1,21 @@
 [
     {
-        "title": "Customer Data Platform v2 (CDP)",
+        "title": "Customer Data Platform version 2 (CDP v2)",
         "imageSrc": "/projects/CDP - 1.png",
-        "description": "Upgraded Customer Data Platform to v2, adding multi-dimensional Superset reports (e.g., GMV, growth, location, brand comparisons), reducing manual filtering, enhancing insights, and improving business decision-making.",
+        "description": "Enhanced the Customer Data Platform by introducing multi-dimensional Superset reports and collaborating on solution design through requirement analysis and low-fidelity sketches, enabling more efficient business insights and decision-making.",
         "skills": [
             "Product Management",
             "Data Analysis",
             "API Integration",
-            "Superset"
+            "Superset",
+            "Low-Fidelity Prototypes"
         ],
+        "showDetails": true,
+        "caseStudyLink": null,
+        "designLink": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?usp=sharing",
         "problem": "CDP v1 offered only high-level aggregated metrics, lacking depth for multi-dimensional analysis (e.g., by brand, time, location), leading to excessive manual filtering, slower insights, and limited decision-making. This restricted users' ability to derive actionable recommendations on consumers, ads, products, and creators.",
         "solution": "Restructured reports for deeper insights by integrating new metrics from TikTok Shop API and TikTok Ads API, utilizing Superset for visualization. This automated multi-dimensional tracking, reduced loading times, minimized manual efforts, and enabled faster, data-driven business decisions through clearer structures and accurate data.",
-        "images": ["/projects/CDP.png"],
+        "images": ["/projects/CDP - 1.png"],
         "responsibilities": {
             "Problem Definition": {
                 "text": [
@@ -204,6 +208,27 @@
             "Reduced manual report consolidation time by ~40% through automation, freeing up team resources.",
             "Minimized reporting errors by ~30% with systematic data collection and validation, improving KPI reliability."
         ]
+    },
+    {
+        "title": "PillDiFY – AI-powered Pill Identification App",
+        "imageSrc": "/projects/pilldify.png",
+
+        "description": "Designed an end-to-end UX case study for a healthcare mobile application, from user research and personas to wireframes, high-fidelity prototypes, and usability testing.",
+
+        "skills": [
+            "UX Research",
+            "User Personas",
+            "User Flows",
+            "Paper Prototyping",
+            "Wireframing",
+            "Figma",
+            "High-fidelity Prototype",
+            "Usability Testing"
+        ],
+
+        "caseStudyLink": "https://drive.google.com/file/d/1WTY8R4qMDRfvVj4PXGcnp-3Vzx0uSZuC/view?usp=sharing",
+        "showDetails": true,
+        "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=0-1&t=CZv0F3qlRyeS3Dy7-1"
     },
     {
         "title": "Content Angle & Hashtag Checking",

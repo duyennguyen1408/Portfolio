@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaEye } from "react-icons/fa";
+import { FaEye, FaPenRuler } from "react-icons/fa6";
 import { RiFullscreenLine } from "react-icons/ri";
 import "./ProjectCard.css";
 import Pagination from "../../layouts/Pagination";
@@ -15,6 +15,9 @@ const ProjectCard = ({
         responsibilities = {},
         achievements = [],
         images = [],
+        designLink,
+        caseStudyLink,
+        showDetails = true,
     },
 }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -41,7 +44,7 @@ const ProjectCard = ({
     };
     const showPrevImage = () => {
         setFullScreenIndex((prev) =>
-            prev === 0 ? images.length - 1 : prev - 1
+            prev === 0 ? images.length - 1 : prev - 1,
         );
     };
 
@@ -103,13 +106,33 @@ const ProjectCard = ({
                         ))}
                     </ul>
                     <div className="project-card-links">
-                        <button
-                            className="project-card-link"
-                            onClick={openModal}
-                        >
-                            <FaEye className="project-card-icon" />
-                            <span>View Project</span>
-                        </button>
+                        {(showDetails || caseStudyLink) && (
+                            <button
+                                className="project-card-link"
+                                onClick={() => {
+                                    if (caseStudyLink) {
+                                        window.open(caseStudyLink, "_blank");
+                                    } else {
+                                        openModal();
+                                    }
+                                }}
+                            >
+                                <FaEye className="project-card-icon" />
+                                <span>Read Case Study</span>
+                            </button>
+                        )}
+
+                        {designLink && (
+                            <button
+                                className="project-card-link"
+                                onClick={() =>
+                                    window.open(designLink, "_blank")
+                                }
+                            >
+                                <FaPenRuler className="project-card-icon" />
+                                <span>View Designs</span>
+                            </button>
+                        )}
                     </div>
                 </div>
             </div>
@@ -188,33 +211,33 @@ const ProjectCard = ({
                                     <h4>Responsibilities</h4>
                                     {renderSection(
                                         "Problem Definition",
-                                        responsibilities["Problem Definition"]
+                                        responsibilities["Problem Definition"],
                                     )}
                                     {renderSection(
                                         "Solution Design",
-                                        responsibilities["Solution Design"]
+                                        responsibilities["Solution Design"],
                                     )}
                                     {renderSection(
                                         "Product Requirement Document (PRD)",
-                                        responsibilities["Requirement / PRD"]
+                                        responsibilities["Requirement / PRD"],
                                     )}
                                     {renderSection(
                                         "Developing",
-                                        responsibilities["Developing"]
+                                        responsibilities["Developing"],
                                     )}
                                     {renderSection(
                                         "Release Alpha & Production",
                                         responsibilities[
                                             "Release Alpha & Production"
-                                        ]
+                                        ],
                                     )}
                                     {renderSection(
                                         "Support User",
-                                        responsibilities["Support User"]
+                                        responsibilities["Support User"],
                                     )}
                                     {renderSection(
                                         "Measure & Iterate",
-                                        responsibilities["Measure & Iterate"]
+                                        responsibilities["Measure & Iterate"],
                                     )}
                                 </>
                             )}

@@ -1,29 +1,33 @@
 {
     "hardSkills": [
-        "Requirements Gathering",
-        "Roadmap Planning",
+        "Requirements Gathering & Analysis",
+        "Business Process Analysis",
+        "Stakeholder Communication",
+        "User Stories & Use Cases",
+        "Documentation (SRS, PRD)",
         "User Research",
+        "Wireframing & Prototyping",
+        "UI Design",
         "Agile & Scrum",
-        "PRD & Documentation",
-        "Data Analysis",
-        "Software Testing & Data Validation"
+        "Software Testing & UAT Support"
     ],
     "softSkills": [
+        "Analytical Thinking",
+        "Problem-solving",
+        "Communication",
+        "Team Collaboration",
         "Ownership",
-        "Persistency",
-        "Empathy & Team-first Attitude",
-        "Analytical & Problem-solving",
-        "Adaptability"
+        "Adaptability",
+        "Persistence"
     ],
     "toolset": [
         {
-            "title": "MySQL",
-            "imageSrc": "/skills/mysql.png"
+            "title": "Figma",
+            "imageSrc": "/skills/figma.png"
         },
-
         {
-            "title": "Git",
-            "imageSrc": "/skills/git.png"
+            "title": "Balsamiq",
+            "imageSrc": "/skills/balsamiq.png"
         },
         {
             "title": "Draw.io",
@@ -34,8 +38,12 @@
             "imageSrc": "/skills/excalidraw.png"
         },
         {
-            "title": "Figma",
-            "imageSrc": "/skills/figma.png"
+            "title": "MySQL",
+            "imageSrc": "/skills/mysql.png"
+        },
+        {
+            "title": "Git",
+            "imageSrc": "/skills/git.png"
         },
         {
             "title": "Word",
@@ -46,8 +54,20 @@
             "imageSrc": "/skills/excel.png"
         },
         {
-            "title": "Powerpoint",
+            "title": "PowerPoint",
             "imageSrc": "/skills/powerpoint.png"
+        },
+        {
+            "title": "ChatGPT",
+            "imageSrc": "/skills/chatgpt.png"
+        },
+        {
+            "title": "Gemini",
+            "imageSrc": "/skills/gemini.png"
+        },
+        {
+            "title": "DeepSeek",
+            "imageSrc": "/skills/deepseek.png"
         }
     ]
 }

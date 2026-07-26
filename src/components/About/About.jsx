@@ -16,14 +16,21 @@ function About() {
                         <div className="about-item-text">
                             <h3>I’m Duyen </h3>
 
+                            <p style={{ marginBottom: "20px" }}>
+                                I believe great products begin with
+                                understanding people!
+                            </p>
+
+                            <p style={{ marginBottom: "20px" }}>
+                                As a Business Analyst and UI/UX Designer, I
+                                enjoy discovering user needs, analyzing business
+                                challenges, and designing solutions that are
+                                simple, meaningful, and practical.
+                            </p>
                             <p>
-                                I am a Business Analyst with hands-on experience
-                                in gathering requirements, analyzing business
-                                processes, and creating clear documentation to
-                                support better decision-making. With strong
-                                analytical and communication skills, I am eager
-                                to contribute to improving processes and systems
-                                for measurable business outcomes.
+                                My goal is to connect business objectives with
+                                user-centered design to create products that
+                                people genuinely enjoy using.
                             </p>
                         </div>
                     </li>

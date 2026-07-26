@@ -1,15 +1,19 @@
 .project-card-container {
     position: relative;
     overflow: hidden;
-    flex: 1 1 calc(50% - 20px); /* laptop: 2 card / hàng */
-    max-width: 500px;
-    min-width: 300px;
+
+    width: 100%;
+    max-width: 700px;
+
     height: 350px;
+
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
     text-align: center;
     background: #fff;
+
+    justify-self: center;
 }
 
 .project-card-container:hover {
@@ -62,7 +66,9 @@
     padding: 20px;
     transform: translateY(100%);
     opacity: 0;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition:
+        transform 0.3s ease,
+        opacity 0.3s ease;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -100,12 +106,13 @@
 }
 
 .project-card-links {
-    margin-top: auto; /* đẩy xuống cuối cùng */
+    margin-top: auto;
     display: flex;
-    gap: 20px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px; /* chừa khoảng cách với mép dưới */
+    gap: 12px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .project-card-link {
@@ -259,7 +266,10 @@
         rgba(170, 54, 124, 0.5) -5.91%,
         rgba(74, 47, 189, 0.5) 100%
     );
-    transition: background 0.6s ease, transform 0.6s ease, color 0.6s ease;
+    transition:
+        background 0.6s ease,
+        transform 0.6s ease,
+        color 0.6s ease;
     color: #fff;
     font-size: 0.9rem;
     font-weight: 500;
@@ -415,7 +425,31 @@
 .fullscreen-icon-btn:hover {
     background: rgba(0, 0, 0, 0.8);
 }
+/* Laptop nhỏ */
+@media (max-width: 1400px) {
+    .project-card-container {
+        height: 320px;
+    }
 
+    .project-card-info {
+        padding: 16px;
+    }
+
+    .project-card-desc {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .project-card-skill {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+    }
+
+    .project-card-link {
+        font-size: 0.85rem;
+        padding: 6px 12px;
+    }
+}
 /* Responsive: tablet */
 /* Responsive: tablet -> mobile unified fix */
 @media (max-width: 830px) {
@@ -466,7 +500,9 @@
         padding: 18px 15px 80px;
         transform: translateY(100%);
         opacity: 0;
-        transition: transform 0.28s ease, opacity 0.28s ease;
+        transition:
+            transform 0.28s ease,
+            opacity 0.28s ease;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;

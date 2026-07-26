@@ -6,28 +6,32 @@ import Pagination from "../../layouts/Pagination";
 
 function Projects() {
     const [currentPage, setCurrentPage] = useState(1);
-    const [itemsPerPage, setItemsPerPage] = useState(2);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 830);
 
     useEffect(() => {
-        const updateItemsPerPage = () => {
-            if (window.innerWidth <= 830) {
-                setItemsPerPage(1); // tablet & mobile
-            } else {
-                setItemsPerPage(2); // laptop trở lên
+        const handleResize = () => {
+            const mobile = window.innerWidth <= 830;
+            setIsMobile(mobile);
+
+            // Khi chuyển từ mobile sang desktop thì reset page
+            if (!mobile) {
+                setCurrentPage(1);
             }
         };
 
-        updateItemsPerPage();
-        window.addEventListener("resize", updateItemsPerPage);
-        return () => window.removeEventListener("resize", updateItemsPerPage);
+        window.addEventListener("resize", handleResize);
+
+        return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    const totalProjects = projects.length;
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const currentProjects = projects.slice(
-        startIndex,
-        startIndex + itemsPerPage
-    );
+    const itemsPerPage = 1;
+
+    const currentProjects = isMobile
+        ? projects.slice(
+              (currentPage - 1) * itemsPerPage,
+              currentPage * itemsPerPage,
+          )
+        : projects;
 
     const handlePageChange = (page) => {
         setCurrentPage(page);
@@ -36,17 +40,21 @@ function Projects() {
     return (
         <section className="projects-container" id="projects">
             <h2 className="projects-title">Projects</h2>
+
             <div className="projects-content">
-                {currentProjects.map((project, id) => (
-                    <ProjectCard key={id} project={project} />
+                {currentProjects.map((project, index) => (
+                    <ProjectCard key={index} project={project} />
                 ))}
             </div>
-            <Pagination
-                totalItems={totalProjects}
-                itemsPerPage={itemsPerPage}
-                currentPage={currentPage}
-                onPageChange={handlePageChange}
-            />
+
+            {isMobile && (
+                <Pagination
+                    totalItems={projects.length}
+                    itemsPerPage={itemsPerPage}
+                    currentPage={currentPage}
+                    onPageChange={handlePageChange}
+                />
+            )}
         </section>
     );
 }
