@@ -122,8 +122,14 @@
     {
         "title": "Conversion Report for TikTok Affiliate Partner",
         "imageSrc": "/projects/Conversion _ TAP.png",
-        "description": "Developed the Conversion Report module in Hiip Admin, integrating TikTok Affiliate Partner and Business Ads data. Automated daily KPI tracking, reducing effort, boosting accuracy, and enabling real-time campaign monitoring for brands and creators.",
-        "skills": ["Product Management", "UI/UX Design", "Testing", "PRD"],
+        "description": "Designed and delivered the end-to-end Conversion Report experience by combining business analysis with UI/UX design, integrating TikTok Affiliate Partner and Business Ads data to automate KPI tracking and enable real-time campaign monitoring",
+        "skills": [
+            "Business Analysis",
+            "UI/UX Design",
+            "Product Testing",
+            "PRD"
+        ],
+        "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=3124-9846&t=XfJL0UE4T8pSnbjo-4",
         "problem": "Previously, brands and creators relied on fragmented manual processes—consolidating TAP orders, TikTok Ads data, and Excel imports—which made reporting slow, error-prone, and updated only weekly.",
         "solution": "Conversion Report - TAP was built to integrate directly with TAP and TikTok Ads APIs, automate daily data collection, and provide a flexible KPI setup tool for brands and products. The system standardized data formats, supported Excel import for special cases (e.g., Unilever campaigns), and reduced manual effort while increasing reporting accuracy and timeliness.",
         "images": [
@@ -210,103 +216,16 @@
         ]
     },
     {
-        "title": "PillDiFY – AI-powered Pill Identification App",
-        "imageSrc": "/projects/pilldify.png",
-
-        "description": "Designed an end-to-end UX case study for a healthcare mobile application, from user research and personas to wireframes, high-fidelity prototypes, and usability testing.",
-
-        "skills": [
-            "UX Research",
-            "User Personas",
-            "User Flows",
-            "Paper Prototyping",
-            "Wireframing",
-            "Figma",
-            "High-fidelity Prototype",
-            "Usability Testing"
-        ],
-
-        "caseStudyLink": "https://drive.google.com/file/d/1WTY8R4qMDRfvVj4PXGcnp-3Vzx0uSZuC/view?usp=sharing",
-        "showDetails": true,
-        "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=0-1&t=CZv0F3qlRyeS3Dy7-1"
-    },
-    {
-        "title": "Content Angle & Hashtag Checking",
-        "imageSrc": "/projects/angle&hashtag.png",
-        "description": "Enhanced the Conversion Report with Content Angle Detection for automated angle matching and Hashtag Checking for streamlined verification, cutting manual effort and boosting accuracy. Delivered actionable insights and optimized workflows for TikTok Affiliate Partner users.",
-        "skills": ["PRD", "UI/UX Design", "Stakeholder Collaboration"],
-        "problem": "The Conversion Report lacked automated tools to identify content angles—where a content angle is the specific theme or perspective (e.g., humor, tutorial) tailored to a product to engage audiences. For Content Angle, the content team provided briefs with product angles to guide influencers, but since influencers' spoken content or captions could vary, manual verification of relevance to any brief angle was inefficient. \nThe Conversion Report also lacked automated hashtag verification, leading to time-consuming manual checks. For Hashtag Checking, the content team manually verified video links and hashtag usage per product, consuming significant resources despite being a key acceptance criterion.",
-        "solution": "Implemented Content Angle Detection to automatically define angles for content by analyzing the first 10 seconds of video transcripts on TikTok, falling back to captions if transcripts were unavailable, based on user-input angles per product. Added Hashtag Checking to verify hashtag presence by cross-referencing user-input hashtags with video content, reducing manual validation. Both features, integrated into the Conversion Report, minimized effort and improved accuracy.",
-        "images": ["/projects/angle&hashtag.png"],
-        "responsibilities": {
-            "Problem Definition": {
-                "text": [
-                    "Identified inefficiencies in manually assigning angles for Content Angle Detection and verifying hashtags for Hashtag Checking via user research and interview.",
-                    "Defined success metrics for automating angle matching and hashtag checks for both features.",
-                    "Evaluated opportunities using transcript/caption data for Content Angle Detection and hashtag automation for Hashtag Checking."
-                ],
-                "links": []
-            },
-            "Solution Design": {
-                "text": [
-                    "Proposed solutions and created sketches/user flows for Content Angle Detection and Hashtag Checking.",
-                    "Designed UI/UX for both features, presenting to stakeholders for feedback."
-                ],
-                "links": []
-            },
-            "Requirement / PRD": {
-                "text": [
-                    "Authored problem/solution docs, user flows, and Excel formats for input files for Content Angle Detection and Hashtag Checking.",
-                    "Managed deployment planning with timelines for both features."
-                ],
-                "links": []
-            },
-            "Developing": {
-                "text": [
-                    "Collaborated on tech design for transcript/caption analysis for Content Angle Detection and hashtag detection for Hashtag Checking.",
-                    "Oversaw development and conducted alpha/production testing for both features.",
-                    "Ensured timeline adherence, addressing data extraction challenges."
-                ],
-                "links": []
-            },
-            "Release Alpha & Production": {
-                "text": [
-                    "Conducted alpha testing for Content Angle Detection & Hashtag Checking, validating angle matching and hashtag verification.",
-                    "Performed production testing and announced release notes for both features."
-                ],
-                "links": []
-            },
-            "Support User": {
-                "text": [
-                    "Created product guidelines for Content Angle Detection and Hashtag Checking.",
-                    "Gathered feedback and supported users for both features post-release."
-                ],
-                "links": []
-            },
-            "Measure & Iterate": {
-                "text": [
-                    "Analyzed quantity/quality of angle matches for Content Angle Detection and hashtag usage for Hashtag Checking.",
-                    "Evaluated performance and proposed iterations for both features."
-                ],
-                "links": []
-            }
-        },
-        "achievements": [
-            "Reduced manual effort by ~40% through automated angle matching for Content Angle Detection and hashtag verification for Hashtag Checking.",
-            "Increased accuracy by ~30% in aligning content angles with product briefs and ensuring ~95% hashtag compliance across campaigns.",
-            "Saved ~50% of the content team’s time by delivering actionable insights and optimizing workflows via integrated Conversion Report features."
-        ]
-    },
-    {
         "title": "Campaign Management",
         "imageSrc": "/projects/campaign.png",
-        "description": "End-to-end campaign platform for influencer activation, quotations, content collaboration, and ROI/perception reporting. I managed the Campaign module, supported VN, SG, PH, ID workspaces, and enhanced/added features for better operations.",
+        "description": "Owned the Campaign module by translating business needs into intuitive product experiences. Led the analysis, UI/UX design, and delivery of multiple features supporting influencer activation, quotations, content collaboration, and campaign reporting across VN, SG, PH, and ID workspaces",
         "skills": [
             "Product Management",
             "UI/UX Design",
             "Stakeholder Collaboration",
             "Cross-regional User Support"
         ],
+        "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=355-318&t=XfJL0UE4T8pSnbjo-1",
         "images": ["/projects/campaign.png"],
         "responsibilities": {
             "Problem Definition": {
@@ -322,7 +241,7 @@
                 "links": [
                     {
                         "label": "Campaign Management > New Features | UI/UX Design",
-                        "url": "https://www.figma.com/design/uw4Tyw3WpioVaiI8uVDxyr/Qu%E1%BB%B3nh-Duy%C3%AAn-Nguy%E1%BB%85n-s-team-library?node-id=2325-144895"
+                        "url": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=355-318&t=XfJL0UE4T8pSnbjo-1"
                     }
                 ]
             },
@@ -351,5 +270,48 @@
                 "links": []
             }
         }
+    },
+    {
+        "title": "PillDiFY – AI-powered Pill Identification App",
+        "imageSrc": "/projects/pilldify.png",
+
+        "description": "Designed an end-to-end UX case study for a healthcare mobile application, from user research and personas to wireframes, high-fidelity prototypes, and usability testing.",
+
+        "skills": [
+            "UX Research",
+            "User Personas",
+            "User Flows",
+            "Paper Prototyping",
+            "Wireframing",
+            "Figma",
+            "High-fidelity Prototype",
+            "Usability Testing"
+        ],
+
+        "caseStudyLink": "https://drive.google.com/file/d/1WTY8R4qMDRfvVj4PXGcnp-3Vzx0uSZuC/view?usp=sharing",
+        "showDetails": true,
+        "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=0-1&t=CZv0F3qlRyeS3Dy7-1"
+    },
+    {
+        "title": "TeamFlow – SaaS Landing Page Design",
+        "imageSrc": "/projects/teamflow.png",
+
+        "description": "Designed a modern SaaS landing page in Figma, focusing on visual hierarchy, responsive layouts, and intuitive user interfaces to create a clean and engaging web experience",
+
+        "skills": [
+            "UI Design",
+            "Web Design",
+            "Responsive Design",
+            "Visual Hierarchy",
+            "Typography",
+            "Color System",
+            "Auto Layout",
+            "Components",
+            "Figma"
+        ],
+
+        "caseStudyLink": null,
+        "showDetails": null,
+        "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=3129-71039&t=XfJL0UE4T8pSnbjo-4"
     }
 ]
