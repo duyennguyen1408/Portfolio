@@ -106,32 +106,38 @@ const ProjectCard = ({
                         ))}
                     </ul>
                     <div className="project-card-links">
-                        {(showDetails || caseStudyLink) && (
-                            <button
-                                className="project-card-link"
-                                onClick={() => {
-                                    if (caseStudyLink) {
-                                        window.open(caseStudyLink, "_blank");
-                                    } else {
-                                        openModal();
-                                    }
-                                }}
-                            >
-                                <FaEye className="project-card-icon" />
-                                <span>Read Case Study</span>
-                            </button>
-                        )}
+                        {(showDetails || caseStudyLink) &&
+                            (caseStudyLink ? (
+                                <a
+                                    href={caseStudyLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="project-card-link"
+                                >
+                                    <FaEye className="project-card-icon" />
+                                    <span>Read Case Study</span>
+                                </a>
+                            ) : (
+                                <button
+                                    type="button"
+                                    className="project-card-link"
+                                    onClick={openModal}
+                                >
+                                    <FaEye className="project-card-icon" />
+                                    <span>Read Case Study</span>
+                                </button>
+                            ))}
 
                         {designLink && (
-                            <button
+                            <a
+                                href={designLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="project-card-link"
-                                onClick={() =>
-                                    window.open(designLink, "_blank")
-                                }
                             >
                                 <FaPenRuler className="project-card-icon" />
                                 <span>View Designs</span>
-                            </button>
+                            </a>
                         )}
                     </div>
                 </div>
