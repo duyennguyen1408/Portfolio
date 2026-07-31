@@ -116,24 +116,51 @@
 }
 
 .project-card-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+
+    width: 150px; /* hoặc 170px-190px tùy ý */
+    height: 32px;
+
+    padding: 0 16px;
+
+    background-color: rgba(0, 0, 0, 0.75);
     color: #fff;
     text-decoration: none;
-    padding: 10px 14px;
-    background-color: rgba(0, 0, 0, 0.75);
+
+    border: none;
     border-radius: 6px;
-    transition: background-color 0.3s ease;
-    display: flex;
-    align-items: center;
-    font-size: 0.9em;
+    outline: none;
+
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1;
+
     cursor: pointer;
+    box-sizing: border-box;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    transition: background-color 0.3s ease;
 }
 
 .project-card-link:hover {
     background-color: var(--color-dark);
+    color: #fff;
+}
+
+.project-card-link:visited {
+    color: #fff;
 }
 
 .project-card-icon {
-    margin-right: 6px;
+    margin-right: 4px;
+    font-size: 0.95rem; /* hoặc 1rem */
+    flex-shrink: 0;
 }
 
 /* Responsive: tablet & mobile */
@@ -551,10 +578,12 @@
     }
 
     .project-card-links {
-        gap: 8px;
+        flex-direction: column;
+        width: 100%;
     }
 
     .project-card-link {
         width: 100%;
+        max-width: 200px;
     }
 }
