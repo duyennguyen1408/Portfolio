@@ -123,15 +123,15 @@ const ProjectCard = ({
                         )}
 
                         {designLink && (
-                            <button
+                            <a
                                 className="project-card-link"
-                                onClick={() =>
-                                    window.open(designLink, "_blank")
-                                }
+                                href={designLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <FaPenRuler className="project-card-icon" />
                                 <span>View Designs</span>
-                            </button>
+                            </a>
                         )}
                     </div>
                 </div>
