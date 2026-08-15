@@ -293,6 +293,24 @@
         "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=0-1&t=CZv0F3qlRyeS3Dy7-1"
     },
     {
+        "title": "Smart QR Menu for Coffee Shop",
+        "imageSrc": "/projects/coffee shop 1.png",
+
+        "description": "Designed and developed an end-to-end self-service ordering experience by translating business and user requirements into responsive UI flows, QR-based ordering, real-time order tracking, and management dashboards, enabling faster and more convenient coffee shop operations.",
+
+        "skills": [
+            "Business Analysis",
+            "UI/UX Design",
+            "Figma",
+            "Product Testing",
+            "Full-Stack Development"
+        ],
+
+        "caseStudyLink": "https://drive.google.com/file/d/1-cfq0BfDBooq5v_hRuH6VgDxWFiSepJ1/view?usp=sharing",
+        "showDetails": true,
+        "designLink": "https://drive.google.com/file/d/1AwUbRx20-WL5HnkZ1JjdEhM_yhBB4a84/view?usp=sharing"
+    },
+    {
         "title": "TeamFlow – SaaS Landing Page Design",
         "imageSrc": "/projects/teamflow.png",
 
