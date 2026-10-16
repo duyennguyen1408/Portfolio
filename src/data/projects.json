@@ -1,5 +1,21 @@
 [
     {
+        "title": "AURA – Chạm đúng sắc, tỏa đúng AURA",
+        "imageSrc": "/projects/aura.png",
+        "description": "Lên ý tưởng và thiết kế ứng dụng mua sắm son môi AURA tích hợp AI, từ xây dựng luồng người dùng, thiết kế wireframe đến prototype tương tác. Tập trung vào trải nghiệm quét khuôn mặt bằng AI để xác định tông da và đề xuất màu son phù hợp, mang đến trải nghiệm làm đẹp cá nhân hóa",
+        "skills": [
+            "UI/UX Design",
+            "Mobile App Design",
+            "User Flows",
+            "Wireframing",
+            "Figma",
+            "High-fidelity Prototype"
+        ],
+        "caseStudyLink": null,
+        "showDetails": null,
+        "designLink": "https://www.figma.com/design/5ybbMWmVJG7HHyrwawYmBk/Project-Mobile?node-id=0-1&t=SgoDYAdK26em67c2-1"
+    },
+    {
         "title": "PillDiFY – AI-powered Pill Identification App",
         "imageSrc": "/projects/pilldify.png",
 
