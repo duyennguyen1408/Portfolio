@@ -1,124 +1,82 @@
 [
     {
-        "title": "Customer Data Platform version 2 (CDP v2)",
-        "imageSrc": "/projects/CDP - 1.png",
-        "description": "Enhanced the Customer Data Platform by introducing multi-dimensional Superset reports and collaborating on solution design through requirement analysis and low-fidelity sketches, enabling more efficient business insights and decision-making.",
+        "title": "AURA – Chạm đúng sắc, tỏa đúng AURA",
+        "imageSrc": "/projects/aura.png",
+        "description": "Lên ý tưởng và thiết kế ứng dụng mua sắm son môi AURA tích hợp AI, từ xây dựng luồng người dùng, thiết kế wireframe đến prototype tương tác. Tập trung vào trải nghiệm quét khuôn mặt bằng AI để xác định tông da và đề xuất màu son phù hợp, mang đến trải nghiệm làm đẹp cá nhân hóa",
         "skills": [
-            "Product Management",
-            "Data Analysis",
-            "API Integration",
-            "Superset",
-            "Low-Fidelity Prototypes"
+            "UI/UX Design",
+            "Mobile App Design",
+            "User Flows",
+            "Wireframing",
+            "Figma",
+            "High-fidelity Prototype"
         ],
-        "showDetails": true,
         "caseStudyLink": null,
-        "designLink": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?usp=sharing",
-        "problem": "CDP v1 offered only high-level aggregated metrics, lacking depth for multi-dimensional analysis (e.g., by brand, time, location), leading to excessive manual filtering, slower insights, and limited decision-making. This restricted users' ability to derive actionable recommendations on consumers, ads, products, and creators.",
-        "solution": "Restructured reports for deeper insights by integrating new metrics from TikTok Shop API and TikTok Ads API, utilizing Superset for visualization. This automated multi-dimensional tracking, reduced loading times, minimized manual efforts, and enabled faster, data-driven business decisions through clearer structures and accurate data.",
-        "images": ["/projects/CDP - 1.png"],
-        "responsibilities": {
-            "Problem Definition": {
-                "text": [
-                    "Researched limitations of CDP v1 through data analysis and user feedback to identify pain points like insufficient depth in metrics and manual filtering needs.",
-                    "Defined success metrics, such as reducing loading times and enabling multi-dimensional breakdowns, while clarifying user requirements for richer insights.",
-                    "Evaluated opportunities by exploring TikTok Shop API and TikTok Ads API to expand metrics, prioritizing based on business impact and technical feasibility."
-                ],
-                "links": []
-            },
-            "Solution Design": {
-                "text": [
-                    "Proposed solutions by brainstorming report restructures to support analysis across dimensions (brand, time, location) and incorporate new metrics from TTS & TT Ads APIs.",
-                    "Created sketches for report structures and explored Superset for optimal visualization, presenting ideas to stakeholders for feedback and refinement."
-                ],
-                "links": [
-                    {
-                        "label": "Sales Performance | Report Structure > Sketch",
-                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=2064308159#gid=2064308159"
-                    },
-                    {
-                        "label": "Ads Performance | Report Structure > Sketch",
-                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=270508753#gid=270508753"
-                    },
-                    {
-                        "label": "Ads Report by Target Audience | Report Structure > Sketch",
-                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=1199538134#gid=1199538134"
-                    }
-                ]
-            },
-            "Requirement / PRD": {
-                "text": [
-                    "Authored key documentation, including research, report structure (sketches translated into structured formats for Superset visualization and development), information architecture, and project roadmap, to ensure clarity and alignment.",
-                    "Reviewed requirements to minimize misunderstandings, ensuring report structures were clear for Superset implementation.",
-                    "Managed planning for feature deployment, incorporating timelines and dependencies for development on Superset."
-                ],
-                "links": [
-                    {
-                        "label": "Product Requirement Document (PRD)",
-                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=756361821#gid=756361821"
-                    }
-                ]
-            },
-            "Developing": {
-                "text": [
-                    "Collaborated on tech solution design, confirming API integrations for data collection from TikTok sources.",
-                    "Oversaw development phases, providing input on implementations while conducting testing for UI/UX and data accuracy to maintain quality.",
-                    "Ensured adherence to timelines by tracking progress and addressing delays from data misunderstandings."
-                ],
-                "links": [
-                    {
-                        "label": "Sales Performance > Project Roadmap",
-                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=977078775#gid=977078775"
-                    },
-                    {
-                        "label": "Ads Report > Project Roadmap",
-                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=1302071023#gid=1302071023"
-                    }
-                ]
-            },
-            "Release Alpha & Production": {
-                "text": [
-                    "Conducted testing on the Superset production environment to ensure report accuracy and usability, validating visualizations and data flows.",
-                    "Performed final validations on Superset post-deployment to confirm system stability and minimal disruptions for users."
-                ],
-                "links": [
-                    {
-                        "label": "Customer Data Platform v2 > Dogfooding",
-                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=885661190#gid=885661190"
-                    }
-                ]
-            },
-            "Support User": {
-                "text": [
-                    "Conducted user training sessions on the upgraded reports, demonstrating multi-dimensional analysis and new features.",
-                    "Gathered feedback during training and real-world use, summarizing issues for actionable improvements.",
-                    "Supported users by troubleshooting system problems and automating feedback processes where possible."
-                ],
-                "links": [
-                    {
-                        "label": "User Feedback > Feature Enhancement",
-                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=229661203#gid=229661203"
-                    }
-                ]
-            },
-            "Measure & Iterate": {
-                "text": [
-                    "Set up next steps based on metrics and feedback, proposing refinements to further enhance insights and align with business needs.",
-                    "Analyzed brand and product data from sales and ads dashboards on Superset for each brand, using data-driven insights to provide specific optimization suggestions (e.g., target consumers, ads, product offers, creators, v.v)"
-                ],
-                "links": [
-                    {
-                        "label": "CDP > Brand Data Analytics",
-                        "url": "https://docs.google.com/spreadsheets/d/1biMw-qapDXo8MRzmPW1BpzXgtRe5lWo4ygi1oEACShY/edit?gid=1310699662#gid=1310699662"
-                    }
-                ]
-            }
-        },
-        "achievements": [
-            "Delivered multi-dimensional reports (e.g., GMV by month, location, brand comparisons) on Superset, enabling faster, data-driven decisions for business users.",
-            "Reduced report loading time by ~80% and minimized manual filtering, streamlining user workflows.",
-            "Integrated TikTok Shop and Ads API metrics, providing deeper, actionable insights for optimizing ads, products, and creator strategies."
-        ]
+        "showDetails": null,
+        "designLink": "https://www.figma.com/design/5ybbMWmVJG7HHyrwawYmBk/Project-Mobile?node-id=0-1&t=SgoDYAdK26em67c2-1"
     },
+    {
+        "title": "PillDiFY – AI-powered Pill Identification App",
+        "imageSrc": "/projects/pilldify.png",
+
+        "description": "Designed an end-to-end UX case study for a healthcare mobile application, from user research and personas to wireframes, high-fidelity prototypes, and usability testing.",
+
+        "skills": [
+            "UX Research",
+            "User Personas",
+            "User Flows",
+            "Paper Prototyping",
+            "Wireframing",
+            "Figma",
+            "High-fidelity Prototype",
+            "Usability Testing"
+        ],
+
+        "caseStudyLink": "https://drive.google.com/file/d/1WTY8R4qMDRfvVj4PXGcnp-3Vzx0uSZuC/view?usp=sharing",
+        "showDetails": true,
+        "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=0-1&t=CZv0F3qlRyeS3Dy7-1"
+    },
+    {
+        "title": "Smart QR Menu for Coffee Shop",
+        "imageSrc": "/projects/coffee shop 1.png",
+
+        "description": "Designed and developed an end-to-end self-service ordering experience by translating business and user requirements into responsive UI flows, QR-based ordering, real-time order tracking, and management dashboards, enabling faster and more convenient coffee shop operations.",
+
+        "skills": [
+            "Business Analysis",
+            "UI/UX Design",
+            "Figma",
+            "Product Testing",
+            "Full-Stack Development"
+        ],
+
+        "caseStudyLink": "https://drive.google.com/file/d/1-cfq0BfDBooq5v_hRuH6VgDxWFiSepJ1/view?usp=sharing",
+        "showDetails": true,
+        "designLink": "https://drive.google.com/file/d/1AwUbRx20-WL5HnkZ1JjdEhM_yhBB4a84/view?usp=sharing"
+    },
+    {
+        "title": "TeamFlow – SaaS Landing Page Design",
+        "imageSrc": "/projects/teamflow.png",
+
+        "description": "Designed a modern SaaS landing page in Figma, focusing on visual hierarchy, responsive layouts, and intuitive user interfaces to create a clean and engaging web experience",
+
+        "skills": [
+            "UI Design",
+            "Web Design",
+            "Responsive Design",
+            "Visual Hierarchy",
+            "Typography",
+            "Color System",
+            "Auto Layout",
+            "Components",
+            "Figma"
+        ],
+
+        "caseStudyLink": null,
+        "showDetails": null,
+        "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=3129-71039&t=XfJL0UE4T8pSnbjo-4"
+    },
+
     {
         "title": "Conversion Report for TikTok Affiliate Partner",
         "imageSrc": "/projects/Conversion _ TAP.png",
@@ -272,64 +230,123 @@
         }
     },
     {
-        "title": "PillDiFY – AI-powered Pill Identification App",
-        "imageSrc": "/projects/pilldify.png",
-
-        "description": "Designed an end-to-end UX case study for a healthcare mobile application, from user research and personas to wireframes, high-fidelity prototypes, and usability testing.",
-
+        "title": "Customer Data Platform version 2 (CDP v2)",
+        "imageSrc": "/projects/CDP - 1.png",
+        "description": "Enhanced the Customer Data Platform by introducing multi-dimensional Superset reports and collaborating on solution design through requirement analysis and low-fidelity sketches, enabling more efficient business insights and decision-making.",
         "skills": [
-            "UX Research",
-            "User Personas",
-            "User Flows",
-            "Paper Prototyping",
-            "Wireframing",
-            "Figma",
-            "High-fidelity Prototype",
-            "Usability Testing"
+            "Product Management",
+            "Data Analysis",
+            "API Integration",
+            "Superset",
+            "Low-Fidelity Prototypes"
         ],
-
-        "caseStudyLink": "https://drive.google.com/file/d/1WTY8R4qMDRfvVj4PXGcnp-3Vzx0uSZuC/view?usp=sharing",
         "showDetails": true,
-        "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=0-1&t=CZv0F3qlRyeS3Dy7-1"
-    },
-    {
-        "title": "Smart QR Menu for Coffee Shop",
-        "imageSrc": "/projects/coffee shop 1.png",
-
-        "description": "Designed and developed an end-to-end self-service ordering experience by translating business and user requirements into responsive UI flows, QR-based ordering, real-time order tracking, and management dashboards, enabling faster and more convenient coffee shop operations.",
-
-        "skills": [
-            "Business Analysis",
-            "UI/UX Design",
-            "Figma",
-            "Product Testing",
-            "Full-Stack Development"
-        ],
-
-        "caseStudyLink": "https://drive.google.com/file/d/1-cfq0BfDBooq5v_hRuH6VgDxWFiSepJ1/view?usp=sharing",
-        "showDetails": true,
-        "designLink": "https://drive.google.com/file/d/1AwUbRx20-WL5HnkZ1JjdEhM_yhBB4a84/view?usp=sharing"
-    },
-    {
-        "title": "TeamFlow – SaaS Landing Page Design",
-        "imageSrc": "/projects/teamflow.png",
-
-        "description": "Designed a modern SaaS landing page in Figma, focusing on visual hierarchy, responsive layouts, and intuitive user interfaces to create a clean and engaging web experience",
-
-        "skills": [
-            "UI Design",
-            "Web Design",
-            "Responsive Design",
-            "Visual Hierarchy",
-            "Typography",
-            "Color System",
-            "Auto Layout",
-            "Components",
-            "Figma"
-        ],
-
         "caseStudyLink": null,
-        "showDetails": null,
-        "designLink": "https://www.figma.com/design/q8lbGo9tlY9zU6XEQPPzgD/PillDiFY?node-id=3129-71039&t=XfJL0UE4T8pSnbjo-4"
+        "designLink": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?usp=sharing",
+        "problem": "CDP v1 offered only high-level aggregated metrics, lacking depth for multi-dimensional analysis (e.g., by brand, time, location), leading to excessive manual filtering, slower insights, and limited decision-making. This restricted users' ability to derive actionable recommendations on consumers, ads, products, and creators.",
+        "solution": "Restructured reports for deeper insights by integrating new metrics from TikTok Shop API and TikTok Ads API, utilizing Superset for visualization. This automated multi-dimensional tracking, reduced loading times, minimized manual efforts, and enabled faster, data-driven business decisions through clearer structures and accurate data.",
+        "images": ["/projects/CDP - 1.png"],
+        "responsibilities": {
+            "Problem Definition": {
+                "text": [
+                    "Researched limitations of CDP v1 through data analysis and user feedback to identify pain points like insufficient depth in metrics and manual filtering needs.",
+                    "Defined success metrics, such as reducing loading times and enabling multi-dimensional breakdowns, while clarifying user requirements for richer insights.",
+                    "Evaluated opportunities by exploring TikTok Shop API and TikTok Ads API to expand metrics, prioritizing based on business impact and technical feasibility."
+                ],
+                "links": []
+            },
+            "Solution Design": {
+                "text": [
+                    "Proposed solutions by brainstorming report restructures to support analysis across dimensions (brand, time, location) and incorporate new metrics from TTS & TT Ads APIs.",
+                    "Created sketches for report structures and explored Superset for optimal visualization, presenting ideas to stakeholders for feedback and refinement."
+                ],
+                "links": [
+                    {
+                        "label": "Sales Performance | Report Structure > Sketch",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=2064308159#gid=2064308159"
+                    },
+                    {
+                        "label": "Ads Performance | Report Structure > Sketch",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=270508753#gid=270508753"
+                    },
+                    {
+                        "label": "Ads Report by Target Audience | Report Structure > Sketch",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=1199538134#gid=1199538134"
+                    }
+                ]
+            },
+            "Requirement / PRD": {
+                "text": [
+                    "Authored key documentation, including research, report structure (sketches translated into structured formats for Superset visualization and development), information architecture, and project roadmap, to ensure clarity and alignment.",
+                    "Reviewed requirements to minimize misunderstandings, ensuring report structures were clear for Superset implementation.",
+                    "Managed planning for feature deployment, incorporating timelines and dependencies for development on Superset."
+                ],
+                "links": [
+                    {
+                        "label": "Product Requirement Document (PRD)",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=756361821#gid=756361821"
+                    }
+                ]
+            },
+            "Developing": {
+                "text": [
+                    "Collaborated on tech solution design, confirming API integrations for data collection from TikTok sources.",
+                    "Oversaw development phases, providing input on implementations while conducting testing for UI/UX and data accuracy to maintain quality.",
+                    "Ensured adherence to timelines by tracking progress and addressing delays from data misunderstandings."
+                ],
+                "links": [
+                    {
+                        "label": "Sales Performance > Project Roadmap",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=977078775#gid=977078775"
+                    },
+                    {
+                        "label": "Ads Report > Project Roadmap",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=1302071023#gid=1302071023"
+                    }
+                ]
+            },
+            "Release Alpha & Production": {
+                "text": [
+                    "Conducted testing on the Superset production environment to ensure report accuracy and usability, validating visualizations and data flows.",
+                    "Performed final validations on Superset post-deployment to confirm system stability and minimal disruptions for users."
+                ],
+                "links": [
+                    {
+                        "label": "Customer Data Platform v2 > Dogfooding",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=885661190#gid=885661190"
+                    }
+                ]
+            },
+            "Support User": {
+                "text": [
+                    "Conducted user training sessions on the upgraded reports, demonstrating multi-dimensional analysis and new features.",
+                    "Gathered feedback during training and real-world use, summarizing issues for actionable improvements.",
+                    "Supported users by troubleshooting system problems and automating feedback processes where possible."
+                ],
+                "links": [
+                    {
+                        "label": "User Feedback > Feature Enhancement",
+                        "url": "https://docs.google.com/spreadsheets/d/1JxwgTh3KtU7StQROIxHqnDfQQG437-YVv6aXIKTgByw/edit?gid=229661203#gid=229661203"
+                    }
+                ]
+            },
+            "Measure & Iterate": {
+                "text": [
+                    "Set up next steps based on metrics and feedback, proposing refinements to further enhance insights and align with business needs.",
+                    "Analyzed brand and product data from sales and ads dashboards on Superset for each brand, using data-driven insights to provide specific optimization suggestions (e.g., target consumers, ads, product offers, creators, v.v)"
+                ],
+                "links": [
+                    {
+                        "label": "CDP > Brand Data Analytics",
+                        "url": "https://docs.google.com/spreadsheets/d/1biMw-qapDXo8MRzmPW1BpzXgtRe5lWo4ygi1oEACShY/edit?gid=1310699662#gid=1310699662"
+                    }
+                ]
+            }
+        },
+        "achievements": [
+            "Delivered multi-dimensional reports (e.g., GMV by month, location, brand comparisons) on Superset, enabling faster, data-driven decisions for business users.",
+            "Reduced report loading time by ~80% and minimized manual filtering, streamlining user workflows.",
+            "Integrated TikTok Shop and Ads API metrics, providing deeper, actionable insights for optimizing ads, products, and creator strategies."
+        ]
     }
 ]
